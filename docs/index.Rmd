@@ -13,11 +13,6 @@ source("../source/analysis.R")
 ## Abstract 
 In my research I will be showing you patterns of Inequality through a dataset incarcerartion_trends. I will also be showing the Growth of the U.S. Prison Population and the Growth of Prison Population by State in a bar and line chart. My research will show patterns of inequality by comparing variables and making a map chart. 
 
-<!-- # Test (TODO: Remove before submission!!) -->
-<!-- ```{r echo=FALSE} -->
-<!-- q1_string <- test_query1() -->
-<!-- num <- 5 -->
-<!-- ``` -->
 As you know, this is a markdown report. The [R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) is **useful!**
 
 * Here's a test of a dynamic variable. Say **"`r q1_string`!!!** 
