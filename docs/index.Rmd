@@ -1,7 +1,7 @@
 ---
-title: "Your A4 Report Title (TODO: Revise title)"
-author: "Your Name"
-date: '2022-11-01'
+title: "The Inequalities in the Incarceration System"
+author: "Jennifer Gomez"
+date: '2022-11-15'
 output: html_document
 ---
 
@@ -11,13 +11,13 @@ source("../source/analysis.R")
 ```
 
 ## Abstract 
-[TODO: Include a short abstract (about 50 words)]
+In my research I will be showing you patterns of Inequality through a dataset incarcerartion_trends. I will also be showing the Growth of the U.S. Prison Population and the Growth of Prison Population by State in a bar and line chart. My research will show patterns of inequality by comparing variables and making a map chart. 
 
-# Test (TODO: Remove before submission!!)
-```{r echo=FALSE}
-q1_string <- test_query1()
-num <- 5
-```
+<!-- # Test (TODO: Remove before submission!!) -->
+<!-- ```{r echo=FALSE} -->
+<!-- q1_string <- test_query1() -->
+<!-- num <- 5 -->
+<!-- ``` -->
 As you know, this is a markdown report. The [R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) is **useful!**
 
 * Here's a test of a dynamic variable. Say **"`r q1_string`!!!** 
@@ -34,10 +34,15 @@ print(sum)
 ```
 
 ## Introduction 
-[TODO]
+The social issues in this dataset consist of the inequality of gender and racism, this dataset shows this inequality in jails and prisons. Another way to word these social issues is by mass incarceration and criminalization and racial disparities. As Data Feminism states, “This reflects our location in the United States, where the most entrenched issues of inequality have racism at their source” (DIgnzaion, Klein pg. 19), this explains how at the root of inequality is racism. In prison and jail systems it outlines those inequalities. In this report I am going to be exploring how races differ in Jail Systems, how genders differ in Prison Systems, and how incarcerations differ in each state. The direct stakeholders that are impacted by this research is the justice system in the U.S. as they’ll get the most criticism for the inequality happening in their system. The Indirect stakeholders impacted by this research are the people incarcerated as they are looked at as a number and will be used to compare the inequalities. 
 
 ## Data Summary 
-[TODO]
+In the dataset incarceration_trends it shows an overall total population that is followed by different population numbers like different races, adult and juvenile jail population, gender population, and etc. This dataset helps you see different aspects of the jail system as it contains the state for every variable and each county has its own population number as well. The dataset helps see the difference in a lot of things, you can see patterns of inequality in multiple ways putting variables together to discover those inequalities is how I will be showing those patterns. 
+
+## Growth of the U.S. Prison Population
+In this bar chart I will be showing the growth of the U.S. prison population. I did this by gathering and filtering the data, then grouped the data by year. The bar chart was then created using the ggplot2 library. 
+
+## Growth of Prison Population by State 
 
 [TODO ... other sections ... See Canvas for details]
 
